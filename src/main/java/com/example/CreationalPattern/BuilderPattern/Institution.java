@@ -5,7 +5,7 @@ import java.util.List;
 
 public abstract class Institution {
     private List<Department> departmentList= new ArrayList<Department>();
-    private String name;
+    private String name;  //final
 
     public Institution(String name){
         this.name = name;

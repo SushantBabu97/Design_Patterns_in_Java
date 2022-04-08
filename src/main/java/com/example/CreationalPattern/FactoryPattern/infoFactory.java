@@ -4,8 +4,8 @@ import java.util.Locale;
 
 class infoFactory {
     public static Person getInfoOf(String infoOf){
-        infoOf.toLowerCase();
-        switch (infoOf) {
+        String Info = infoOf.toLowerCase(); //assign to new variable and check
+        switch (Info) {
             case "education":
                 return new EducationInfo();
             case "contact":
@@ -13,6 +13,6 @@ class infoFactory {
             case "employment":
                 return new EmploymentInfo();
         }
-        return null;
+        return null; //return exception
     }
 }

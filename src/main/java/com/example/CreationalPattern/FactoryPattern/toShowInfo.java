@@ -6,7 +6,7 @@ public class toShowInfo {
 
         EducationInfo edu = new EducationInfo();
         edu.displayMsg();
-        Person person1 = infoFactory.getInfoOf("education");
+        Person person1 = infoFactory.getInfoOf("Education");
         person1.setDetails("NCIT",4231, "ncit@ncit.edu.np","Balkumari,Laitpur");
         person1.getDetails();
 
